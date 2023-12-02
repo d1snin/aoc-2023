@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-const val INPUT =
+private const val INPUT =
     """
     """
 
