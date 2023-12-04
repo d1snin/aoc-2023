@@ -22,12 +22,12 @@ private const val RED_LIMIT = 12
 private const val GREEN_LIMIT = 13
 private const val BLUE_LIMIT = 14
 
-data class Game(
+private data class Game(
     val id: Int,
     val handfuls: List<Handful>
 )
 
-data class Handful(
+private data class Handful(
     val red: Int,
     val green: Int,
     val blue: Int
